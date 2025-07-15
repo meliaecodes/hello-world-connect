@@ -10,7 +10,7 @@
      "authentication": {
          "type": "none"
      },
-     "apiVersion": 1,
+     "apiVersion": 2,
      "modules": {
          "generalPages": [
              {
