@@ -4,7 +4,7 @@
      "key": "com.meliaecodes.hello-world",
      "baseUrl": "https://meliaecodes.github.io/hello-world-connect/",
      "vendor": {
-         "name": "Meliae Codes",
+         "name": "Melissa Paisley, Atlassian [Github Repo]",
          "url": "https://meliaecodes.github.io/"
      },
      "authentication": {
@@ -18,7 +18,7 @@
                  "key": "hello-world-general-page",
                  "location": "system.top.navigation.bar",
                  "name": {
-                     "value": "Hello World by Meliae Codes"
+                     "value": "Hello World by MPaisley"
                  }
              }
          ],
@@ -27,7 +27,7 @@
                   "key": "hello-world-web-item",
                   "location": "operations-operations",
                   "name": {
-                      "value": "Hello World by Meliae Codes"
+                      "value": "Hello World by MPaisley"
                   },
                   "url": "/web-item.html"            
 
@@ -38,7 +38,7 @@
                 "key": "hello-world-web-panel-left",
                 "location": "atl.jira.view.issue.left.context",
                 "name": {
-                    "value": "Hello World by Meliae Codes"
+                    "value": "Hello World by MPaisley"
                 },
                 "url": "/web-panel.html"            
             }
