@@ -15,12 +15,33 @@
          "generalPages": [
              {
                  "url": "/helloworld.html",
-                 "key": "hello-world",
+                 "key": "hello-world-general-page",
                  "location": "system.top.navigation.bar",
                  "name": {
-                     "value": "Greeting"
+                     "value": "Hello World by Meliae Codes"
                  }
              }
-         ]
+         ],
+          "webItems": [
+              {
+                  "key": "hello-world-web-item",
+                  "location": "operations-operations",
+                  "weight": 10,
+                  "name": {
+                      "value": "Hello World by Meliae Codes"
+                  },
+                  "url": "/web-item.html"
+              }
+        ],
+          "webPanels": [
+            {
+                "key": "hello-world-web-panel-left",
+                "location": "atl.jira.view.issue.left.context",
+                "name": {
+                    "value": "Hello World by Meliae Codes"
+                },
+                "url": "/web-panel.html"            
+            }
+        ]
      }
 }
