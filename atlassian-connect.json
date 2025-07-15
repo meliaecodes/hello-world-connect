@@ -1,11 +1,11 @@
 {
      "name": "Hello World",
      "description": "Atlassian Connect app",
-     "key": "com.example.myapp",
-     "baseUrl": "https://<placeholder-url>",
+     "key": "com.meliaecodes.hello-world",
+     "baseUrl": "https://meliaecodes.github.io/hello-world-connect/",
      "vendor": {
-         "name": "Example, Inc.",
-         "url": "http://example.com"
+         "name": "Meliae Codes",
+         "url": "https://meliaecodes.github.io/"
      },
      "authentication": {
          "type": "none"
