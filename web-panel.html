@@ -5,6 +5,7 @@
         <script src="https://connect-cdn.atl-paas.net/all.js" async>
           AP.context.getContext(function(response){
             console.log("Jira Issue Key", response.issue_key);
+            document.getElementById("issue-key").innerHTML = response.issue_key
           });
         </script>
     </head>
@@ -12,6 +13,7 @@
         <section id="content" class="ac-content">
             <h1>Hello Web Panel</h1>
             <p>This is a web panel</p>
+            <p>Issue Key: <span id="issue-key"></span></p>
         </section>
     </body>
 </html>
