@@ -22,18 +22,16 @@
                  }
              }
          ],
-          "webItems": [
+         "webItems": [
               {
                   "key": "hello-world-web-item",
                   "location": "operations-operations",
-                  "weight": 10,
                   "name": {
                       "value": "Hello World by Meliae Codes"
-                  },
-                  "url": "/web-item.html"
+                  }
               }
-        ],
-          "webPanels": [
+         ],
+         "webPanels": [
             {
                 "key": "hello-world-web-panel-left",
                 "location": "atl.jira.view.issue.left.context",
