@@ -28,7 +28,9 @@
                   "location": "operations-operations",
                   "name": {
                       "value": "Hello World by Meliae Codes"
-                  }
+                  },
+                  "url": "/web-item.html"            
+
               }
          ],
          "webPanels": [
