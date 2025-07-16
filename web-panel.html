@@ -3,9 +3,13 @@
     <head>
         <link rel="stylesheet" href="https://unpkg.com/@atlaskit/css-reset@2.0.0/dist/bundle.css" media="all">
         <script src="https://connect-cdn.atl-paas.net/all.js">
-          AP.context.getContext(function(response){
-            console.log("Jira Issue Key", response.issue_key);
-            document.getElementById("issue-key").innerHTML = response.issue_key
+        </script>
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+            AP.context.getContext(function(response){
+              console.log("Jira Issue Key", response.issue_key);
+              document.getElementById("issue-key").innerHTML = response.issue_key
+            });
           });
         </script>
     </head>
